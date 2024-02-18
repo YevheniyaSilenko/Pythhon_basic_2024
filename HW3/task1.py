@@ -1,26 +1,26 @@
 try:
 
-    day_number = int(input("Введіть номер дня тижня (1-7): "))
+    day_number = int(input("Enter numbers of week (1-7): "))
 
     # Використовуємо match
     match day_number:
         case 1:
-            print("понеділок")
+            print("monday")
         case 2:
-            print("вівторок")
+            print("tuesday")
         case 3:
-            print("середа")
+            print("wednesday")
         case 4:
-            print("четвер")
+            print("thursday")
         case 5:
-            print("п'ятниця")
+            print("friday")
         case 6:
-            print("субота")
+            print("saturday")
         case 7:
-            print("неділя")
+            print("sunday")
         case _:
             # Виводимо повідомлення про помилку, якщо номер дня тижня не відповідає жодному дню
-            raise ValueError("Введіть число від 1 до 7.")
+            raise ValueError("Enter numbers from 1 till 7.")
 
 except ValueError as e:
     print(f"Error: {e}")
