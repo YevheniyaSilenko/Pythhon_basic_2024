@@ -2,7 +2,7 @@
 text = "Good morning everyone"
 print(text)
 
-text = text.replace("morning", "night", 2)
+text = text.replace("morning", "night", 1)
 print(text)
 
 
