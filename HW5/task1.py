@@ -11,11 +11,11 @@ even_numbers_sum = 0
 odd_numbers_sum = 0
 result_sum = 0
 for number in numbers:
-    if number < 0:  # Суму негативних чисел;
+    if number < 0:  # Сума негативних чисел;
         negative_numbers_sum += number
-    if number % 2 == 0:  # Суму парних чисел;
+    if number % 2 == 0:  # Сума парних чисел;
         even_numbers_sum += number
-    if number % 2 != 0:  # Суму непарних чисел;
+    if number % 2 != 0:  # Сума непарних чисел;
         odd_numbers_sum += number
     if number % 3 == 0:  # Добуток елементів з кратними індексами 3;
         result_sum += number
