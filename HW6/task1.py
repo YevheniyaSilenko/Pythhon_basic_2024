@@ -1,6 +1,6 @@
-def product_of_elements(lst):
+def product_of_elements(list):
     product = 1
-    for num in lst:
+    for num in list:
         product *= num
     return product
 
